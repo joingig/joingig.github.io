@@ -23,7 +23,7 @@ resume_contact_address:         "115230 1 Nagatinsky drive, Moscow"
 resume_header_contact_info:     "115230 1 Nagatinsky drive, Moscow • 89168605822 • rxxxxx@aport.ru"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Информационные технологии, интернет, телеком. Передача данных и доступ в интернет. Компьютерная безопасность. Занятость: полная занятость. График работы: полный день.</p>"
+resume_header_intro: "<p>Информационные технологии, интернет, телеком. <br> Передача данных и доступ в интернет.<br> Компьютерная безопасность.<br>Занятость: полная занятость.<br>График работы: полный день.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
