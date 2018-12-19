@@ -1,9 +1,16 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Ведущий специалист отдела ЦОД 
+- company: Гринатом, ЗАО
+  position: Ведущий специалист отдела сопровождения ЦОД и UNIX систем
+  duration: Июль, 2011 &mdash; Present
+  summary: <ul class="resume-item-list"><li>
+<li>Поддержка RISC инфраструктуры (E850, P780, PS702, S822), IBM PowerVM, IBM® PowerHA® SystemMirror for AIX.</li>
+<li>Подготовка и поддержка ландшафтов для SAP приложений.</li>
+<li>Внедрение и сопровождение Veritas Storage Foundation HA для приложений SAP.</li>
+<li>Экспертиза проектных решений и взаимодействие с подрядными организациями для успешного выполнения целей и задач компании.</li>
+<li>Плотное взаимодействие с подразделениями администрирующими SAP и Oracle.</li>
+<li>Временно исполняющий обязанности начальника отдела ЦОД и UNIX.</li>
+</ul>
 
 # Director of Digital Stratgy
 - company: United Nations Human Rights Council
