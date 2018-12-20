@@ -9,11 +9,11 @@
 - company: IBS Datafort
   position: Ведущий эксперт по UNIX платформе
   duration:  Sep, 2008 &mdash; Jun, 2011
-  summary: <ul class="resume-item-list"><li>Проектирование систем и узлов, систем хранения данных, для web проектов и HPC систем</li><li>Разработка и внедрение кластерных решений на базе продуктов RedHat/RHEV</li><li>Внедрение платформ виртуализации VmwareESX4, XEN</li><li>Внедрение системы виртуализации рабочих мест на базе XenDesktop</li><li>Инсталляция географически-распределённых хранилищ данных на базе GlusterFS, LustreFS</li><li>Аудит, реорганизация, модернизация и миграция клиентских сетевых решений; Размещение оборудования в Дата-центрах</li><li>Работа с системой резервного копирования Legato Networker</li><li>PM Деятельность. Организация проектной команды, подготовка пакета проектной документации, постановка задач, контроль и общение с заказчиками</li></ul>
+  summary: Цели и задачи <ul class="resume-item-list"><li>Проектирование систем и узлов, систем хранения данных, для web проектов и HPC систем</li><li>Разработка и внедрение кластерных решений на базе продуктов RedHat/RHEV</li><li>Внедрение платформ виртуализации VmwareESX4, XEN</li><li>Внедрение системы виртуализации рабочих мест на базе XenDesktop</li><li>Инсталляция географически-распределённых хранилищ данных на базе GlusterFS, LustreFS</li><li>Аудит, реорганизация, модернизация и миграция клиентских сетевых решений; Размещение оборудования в Дата-центрах</li><li>Работа с системой резервного копирования Legato Networker</li><li>PM Деятельность. Организация проектной команды, подготовка пакета проектной документации, постановка задач, контроль и общение с заказчиками</li></ul>
 
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:  Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# System administrator
+- company:  Энергокаскад, ЗАО
+  position: Системный Администратор
+  duration:  Jan, 2008  &mdash; Sep, 2008
+  summary: Установка и поддержка функционирования серверов предприятия<ul class="resume-item-list"><li>Цепочка почтовых серверов(Sendmail + SpamAsassin + ClamAV + IMS TrendMicro + MS Exchange)</li><li>Шлюз доступа в Интернет на базе RHEL4 Squid + AD</li><li>Межофисные шлюзовые сервера на базе RHEL4 VPN (Vtun+VLAN2VLAN dot1q)</li><li>Система учета трафика на базе FreeBSD6 (NetAMS+MySQL+Apache2)</li><li>Cisco 19xx, 28xx, 35xx, asa5505</li><li>DNS на BIND9 и PowerDNS</li><li>Документирование / планирование структуры сети и её узлов</li></ul>
