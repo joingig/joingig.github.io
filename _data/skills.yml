@@ -1,12 +1,16 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# HA Engineer
+- skill: Практика построение и сопровождения систем высокой доступности
+  description: IBM PowerHA, Veritas Storage foundation HA, Gluster
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# Project management
+- skill: Проектная работа
+  description: Сопровождение проектной документации от Рабочих черновиков до опытно-промышленной эксплуатации
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# Web Application arch
+- skill: Внедрение и сопровождение web приложений 
+  description: Bitrix, Django, Flask
+
+# LAN WAN ADM
+- skill: Проектирование, модернизация, администрирование LAN WAN сетей
+  description: Cisco, Open vSwitch etc
