@@ -29,3 +29,10 @@
   position: Системный Администратор
   duration:  Jul, 2005  &mdash; Sep, 2006
   summary: Установка и поддержка функционирования серверов предприятия<ul class="resume-item-list"><li>Почтовый сервер на базе Postfix, шлюз на Squid, вебсервер Apache, внутренний домен на базе MS Windows 2003, AD, GPO, DHCP, DNS</li><li>Поддержка функционирования сети предприятия. Поддержка вебсайтов предприятия. Обслуживание офисной техники, Helpdesk 30 человек</li><li>В ходе работы внедрён WWW/MAIL сервер на базе FreeBSD53 отвечающий политике безопасности предприятия IPFW, NAT, BIND, Sendmail + ClamAV + Spamassassin, FTP, Apache + PHP5 + Perl, Squid</li></ul>
+
+# System administrator
+- company:  Сторм Трейд, ООО
+  position: Системный Администратор
+  duration:  Sep, 2004  &mdash; Jun, 2005
+  summary: Администрирование почтового сервера, файлового, шлюзового сервера на базе линейки MS Windows 2000  AD, DHCP, DNS, поддержка пограничного сервера на базе FreeBSD. Поддержка сети предприятия. HelpDesk 15 пользователей
+
