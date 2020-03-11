@@ -44,40 +44,40 @@ Python для фильтрации данных sar sar00.py ( **attention! spag
         	hr_nxt = kk[iline][0].split(':')[0]
 
         	if hr_nxt!=hr_cur:
-            	#old fashion
-            	sum_h = sum_util / hr_cnt
-            	sar_sum.append((hr_cur,sum_h))
-            	sum_util = 100 - float(kk[iline][7])
+            		#old fashion
+            		sum_h = sum_util / hr_cnt
+            		sar_sum.append((hr_cur,sum_h))
+            		sum_util = 100 - float(kk[iline][7])
 
-            	hr_cur=hr_nxt
-            	hr_cnt = 1
+            		hr_cur=hr_nxt
+            		hr_cnt = 1
         	else:
-            	sum_util += 100 - float(kk[iline][7])
+            		sum_util += 100 - float(kk[iline][7])
            		hr_cnt += 1
 
        	 	iline += 1
 
-    #BUG! need to delete 0 element its allways zero,zero (iteration algo error)
-    del sar_sum[0]
+    	#BUG! need to delete 0 element its allways zero,zero (iteration algo error)
+    	del sar_sum[0]
     
-    last_hr = int(kk[iline-1][0].split(':')[0])
-    sar_sum.append((last_hr,sum_util / hr_cnt))
-    last_hr += 1
+    	last_hr = int(kk[iline-1][0].split(':')[0])
+    	sar_sum.append((last_hr,sum_util / hr_cnt))
+    	last_hr += 1
 
-    for a in range(24-len(sar_sum)):
-        sar_sum.append((last_hr,2))
-        last_hr += 1
+    	for a in range(24-len(sar_sum)):
+        	sar_sum.append((last_hr,2))
+        	last_hr += 1
 
-    pp.pprint (sar_sum)
+    	pp.pprint (sar_sum)
 
-    print '{} writing'.format(f_sarfiltered)
+    	print '{} writing'.format(f_sarfiltered)
 
-    with open(f_sarfiltered, 'w') as f:
-        for item in sar_sum:
-            print >> f, item[0],item[1]
+    	with open(f_sarfiltered, 'w') as f:
+        	for item in sar_sum:
+            		print >> f, item[0],item[1]
 
-	if __name__ == "__main__":
-    	main()
+if __name__ == "__main__":
+	main()
 ```
 
 Python выдаёт файл *sar_data.txt* (это прописано внутри *sar00.py* в переменной *f__sarfiltered*)
