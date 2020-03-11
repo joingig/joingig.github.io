@@ -76,8 +76,8 @@ Python для фильтрации данных sar sar00.py ( **attention! spag
         	for item in sar_sum:
             		print >> f, item[0],item[1]
 
-if __name__ == "__main__":
-	main()
+	if __name__ == "__main__":
+		main()
 ```
 
 Python выдаёт файл *sar_data.txt* (это прописано внутри *sar00.py* в переменной *f__sarfiltered*)
