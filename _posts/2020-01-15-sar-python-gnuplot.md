@@ -82,6 +82,7 @@ Python для фильтрации данных sar sar00.py ( **attention! spag
     	main()
 ```
 
+
 Python выдаёт файл *sar_data.txt* (это прописано внутри *sar00.py* в переменной *f__sarfiltered*)
 
 Конфигурация gnuplot, файл *sar.gnuplot*
