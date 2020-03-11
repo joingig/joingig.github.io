@@ -25,21 +25,21 @@ Python для фильтрации данных sar [sar00.py](https://github.co
 
 
 ```python
-	import fileinput as fi
-	import pprint as pp
+import fileinput as fi
+import pprint as pp
 
-	def main():
-    	kk = [line.split() for line in fi.input()]
+def main():
+kk = [line.split() for line in fi.input()]
 
-    	iline, hr_nxt, hr_cur, sum_util, sum_h, hr_cnt = 2, 0, 0, 0, 0, 1;
-    	sar_sum = []
+iline, hr_nxt, hr_cur, sum_util, sum_h, hr_cnt = 2, 0, 0, 0, 0, 1;
+sar_sum = []
 
-    	f_sarfiltered = 'sar_data.txt'
+f_sarfiltered = 'sar_data.txt'
 
-    	while iline < len(kk):
-        	if len(kk[iline]) < 2:
-           	 	iline+=1
-            	continue
+while iline < len(kk):
+	if len(kk[iline]) < 2:
+        	iline+=1
+        	continue
 
         	hr_nxt = kk[iline][0].split(':')[0]
 
@@ -57,27 +57,26 @@ Python для фильтрации данных sar [sar00.py](https://github.co
 
        	 	iline += 1
 
-    	#BUG! need to delete 0 element its allways zero,zero (iteration algo error)
-    	del sar_sum[0]
+#BUG! need to delete 0 element its allways zero,zero (iteration algo error)
+del sar_sum[0]
     
-    	last_hr = int(kk[iline-1][0].split(':')[0])
-    	sar_sum.append((last_hr,sum_util / hr_cnt))
-    	last_hr += 1
+last_hr = int(kk[iline-1][0].split(':')[0])
+sar_sum.append((last_hr,sum_util / hr_cnt))
+last_hr += 1
 
-    	for a in range(24-len(sar_sum)):
-        	sar_sum.append((last_hr,2))
-        	last_hr += 1
+for a in range(24-len(sar_sum)):
+	sar_sum.append((last_hr,2))
+        last_hr += 1
 
-    	pp.pprint (sar_sum)
+pp.pprint (sar_sum)
+print '{} writing'.format(f_sarfiltered)
 
-    	print '{} writing'.format(f_sarfiltered)
+with open(f_sarfiltered, 'w') as f:
+	for item in sar_sum:
+        	print >> f, item[0],item[1]
 
-    	with open(f_sarfiltered, 'w') as f:
-        	for item in sar_sum:
-            		print >> f, item[0],item[1]
-
-	if __name__ == "__main__":
-		main()
+if __name__ == "__main__":
+	main()
 ```
 
 Python выдаёт файл *sar_data.txt* (это прописано внутри *sar00.py* в переменной *f__sarfiltered*)
