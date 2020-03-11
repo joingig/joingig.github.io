@@ -21,7 +21,7 @@ First of, get sar data (CPU utilisation) and push it to python app sar00.py:
 
     LC_TIME="POSIX"  /usr/bin/sar -C | egrep -v Linux\|Average  | /usr/bin/python sar00.py
 
-Python для фильтрации данных sar sar00.py ( **attention! spaghetti code ahead!** )
+Python для фильтрации данных sar [sar00.py](https://github.com/joingig/joingig.github.io/blob/master/sar00.py) ( **attention! spaghetti code ahead!** )
 
 
 ```python
