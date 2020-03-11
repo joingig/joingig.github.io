@@ -5,9 +5,7 @@ title:  "sar python gnuplot"
 
 Основная задача всего этого это(single script, pure python and console output) вот такие графики в консоли:
 
-![SAR-PYTHON-GNUPLOT][sar-py]
-
-[sar-py]: https://github.com/joingig/joingig.github.io/blob/master/images/sar-py-00.jpg "SAR PYTHON GNUPLOT"
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 Подготовка:
 
@@ -81,8 +79,6 @@ Python для фильтрации данных sar sar00.py ( **attention! spag
 	if __name__ == "__main__":
     	main()
 ```
-   
-   
 
 Python выдаёт файл *sar_data.txt* (это прописано внутри *sar00.py* в переменной *f__sarfiltered*)
 
