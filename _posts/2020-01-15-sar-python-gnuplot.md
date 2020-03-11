@@ -3,7 +3,7 @@ layout: post
 title:  "sar python gnuplot"
 ---
 
-Основная задача всего этого это вот такие графики в консоли:
+Основная задача всего этого это(single script, pure python and console output) вот такие графики в консоли:
 
 ![SAR-PYTHON-GNUPLOT][sar-py]
 
