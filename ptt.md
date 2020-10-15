@@ -2,25 +2,25 @@
 
 **Tips and Tricks** based on [video](https://www.youtube.com/watch?v=C-gEQdGVXbk)
 
-1. [Ternary Conditionals](Ternary Conditionals)
+1. [Ternary Conditionals](#Ternary-Conditionals)
 
-2. [Underscore Placeholders](Underscore Placeholders)
+2. [Underscore Placeholders](#Underscore-Placeholders)
 
-3. [Context Managers](Context Managers)
+3. [Context Managers](#Context-Managers)
 
-4. [Enumerate](Enumerate)
+4. [Enumerate](#Enumerate)
 
-5. [Zip](Zip)
+5. [Zip](#Zip)
 
-6. [Unpacking](Unpacking)
+6. [Unpacking](#Unpacking)
 
-7. [Setattr/Getattr](Setattr/Getattr)
+7. [Setattr/Getattr](#Setattr/Getattr)
 
-8. [GetPass](GetPass)
+8. [GetPass](#GetPass)
 
-9. [Python dash m](Python dash m)
+9. [Python dash m](#Python-dash-m)
 
-10. [Help/Dir](Help/Dir)
+10. [Help/Dir](#Help/Dir)
 
 #### Ternary Conditionals
 
@@ -283,7 +283,8 @@ print c
   
   datetime.today()
   datetime.datetime(2020, 10, 15, 23, 25, 37, 101100)
-  
-  
   ```
+
+```
 - after:
+```
